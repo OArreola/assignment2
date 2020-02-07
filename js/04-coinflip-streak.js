@@ -1,12 +1,12 @@
 let coinFlip;
 do{
     coinFlip = Math.round(Math.random());
-    if(coinFlip === 0){
+    if(!coinFlip){
         window.console.log("Heads");
     }else{
         window.console.log("Tails");
     }
-}while(coinFlip === 0);
+}while(!coinFlip);
 
 
 
